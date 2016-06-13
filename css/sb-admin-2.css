@@ -387,3 +387,5 @@ h4.cmp-header{ color:#086ba1; margin:40px 0 10px 0; }
 .header-center2 ul li{ margin-left:10px; float:left; }
 .nav .profile{  padding-top:0px; padding-bottom:0px; }
 .nav .profile img {  border-radius: 3px;  margin-right: 5px; }
+.add-post-right{ float:right!important; margin-top:-7px; }
+.right-tab-area{ background-color:#fcfcfc; border-top:2px solid #c8d1d6; margin-top:42px; padding-top:10px; height:870px; }
