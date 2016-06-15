@@ -5,25 +5,24 @@
  */
 
 body {
-    background-color: #f8f8f8;
+    /*background-color: #f8f8f8;*/
 }
 
 #wrapper {
     width: 100%;
 }
 
-#page-wrapper {
+.page-head {
     padding: 0 15px;
-    min-height: 568px;
     background-color: #fff;
 }
 
 @media(min-width:768px) {
-    #page-wrapper {
+    .page-head {
         position: inherit;
         margin: 0 auto;
         padding: 0 30px;
-		max-width:1200px;
+		max-width:1237px;
     }
 }
 
@@ -381,11 +380,12 @@ h4.cmp-header{ color:#086ba1; margin:40px 0 10px 0; }
 .header-center{ width:60%; margin:20px auto 0 auto; text-align:center; float:left; }
 .header-center ul{ list-style:none; text-align:center; margin:0px auto; font-size:16px; }
 .header-center ul li{ display:inline; margin-left:10px; }
+.header-center ul li img{ margin-top:-5px; }
 .second-nav{ background:#0f6b9d; text-align:center; clear:both; padding:10px; }
-.header-center2{ text-align:center; width:50%; margin:0 auto; }
+.header-center2{ text-align:center; width:490px; margin:0 auto; }
 .header-center2 ul{ list-style:none; text-align:center; margin:0px auto; font-size:16px; width:auto; }
 .header-center2 ul li{ margin-left:10px; float:left; }
 .nav .profile{  padding-top:0px; padding-bottom:0px; }
-.nav .profile img {  border-radius: 3px;  margin-right: 5px; }
+.nav .profile img {  border-radius: 25px; }
 .add-post-right{ float:right!important; margin-top:-7px; }
-.right-tab-area{ background-color:#fcfcfc; border-top:2px solid #c8d1d6; margin-top:42px; padding-top:10px; height:870px; }
+.right-tab-area{ background-color:#fcfcfc; border-top:2px solid #c8d1d6; margin-top:42px; padding-top:10px; height:670px; }
