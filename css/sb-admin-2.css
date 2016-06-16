@@ -388,4 +388,16 @@ h4.cmp-header{ color:#086ba1; margin:40px 0 10px 0; }
 .nav .profile{  padding-top:0px; padding-bottom:0px; }
 .nav .profile img {  border-radius: 25px; }
 .add-post-right{ float:right!important; margin-top:-7px; }
-.right-tab-area{ background-color:#fcfcfc; border-top:2px solid #c8d1d6; margin-top:42px; padding-top:10px; height:670px; }
+.right-tab-area{ background-color:#fcfcfc; border-top:2px solid #c8d1d6; margin:0px;   }
+#tbleDisplay{ display:table; margin:0px auto;}
+#tbleDisplay .row{ padding:0px!important; margin:0px!important; }
+#leftDiv,#rightDiv{ display:table-cell;  }
+.hideme{ display:none!important; }
+.dataTable tbody td{ vertical-align:middle !important; }
+.feelings{ text-align:left; }
+.feelings > img{ margin-top:-2px; }
+.slider-right{ margin-top:25px; }
+.searchTBL { position: relative; float:right; }
+.searchTBL input { padding-right: 30px;}
+.searchTBL .fa-search {   position: absolute;  top: 8px; right: 7px;  font-size: 15px; }
+.dataTables_info{ float:left; }
